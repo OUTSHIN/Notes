@@ -188,7 +188,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 在本地的`Practice`仓库下运行命令：
 
-```git
+```
 git remote add origin https://github.com/OUTSHIN/Git_Practice.git
 //git remote add origin git@github.com:OUTSIHIN
 ```
