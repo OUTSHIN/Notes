@@ -9,7 +9,7 @@
 ##### 考法
 
 - 定义法(先斩后奏解出极限为A)
-  - 然后用递推式, 如: $ \frac{x_n}{x_{n-1}} $ 推出 $lim|x_n-A|=0$
+  - 然后用递推式, 如: $\frac{x_n}{x_{n-1}}$ 推出 $lim|x_n-A|=0$
 - 唯一性
   - 子列极限唯一
 - 有界性
@@ -85,7 +85,7 @@
   
     - 无分母，提取公因式或倒代换
   
-      1. 设$\lim_{x\rightarrow \infty} \,\,\left[ \left(x^5+7x^4+2\right)^a-x\right], b\ne 0, 求a,b的值$
+      1. 设$\lim_{x\rightarrow \infty} \left[ \left(x^5+7x^4+2\right)^a-x \right], b \ne 0$, 求a,b的值
   
          > 同除x后移项提取公因式 [(月度测试题极限16)](https://md-imag.oss-accelerate.aliyuncs.com/20200214112526.png)
 
@@ -126,8 +126,8 @@
 ##### 考法
 
 - 辅助函数(求导)，罗
-  - 构造辅助函数时将**$f(a),g(b)$**等一些项看作**常数**
-  - 将**$f(\xi)，\xi$**等看作**自变量**
+  - 构造辅助函数时将$f(a),g(b)$等一些项看作**常数**
+  - 将$f(ξ),ξ$等看作**自变量**
 - f(a)-f(b)，拉[*](https://md-imag.oss-accelerate.aliyuncs.com/20200217110548.png)
 - 遇到三个点，拉[*](https://md-imag.oss-accelerate.aliyuncs.com/20200217110456.png)
 - 不等式证明(等价替换不等式中间的式子)[*](https://md-imag.oss-accelerate.aliyuncs.com/20200219094856.png)
@@ -147,7 +147,7 @@
 
 ###### 结构[*](https://md-imag.oss-accelerate.aliyuncs.com/20200228211516.png)  [*](https://md-imag.oss-accelerate.aliyuncs.com/20200228212821.png)
 
-| $f'(x)=0$ (用辅助函数求出) | 见到$\int_{a}^{b}f(x)dx$            | 见到$f-f$`或`$f与f'$(相差一阶)的关系     | 见 到相等或$\ne0$(自然不等于0) |     $f与f''$或更高阶     |
+| $f'(x)=0$ (用辅助函数求出) | 见到$\int_{a}^{b}f(x)dx$            | 见到$f-f$或$f,f'$(相差一阶)的关系     | 见 到相等或$\ne0$(自然不等于0) |     $f, f''$或更高阶     |
 | -------------------------- | ----------------------------------- | ---------------------------------------- | ------------------------------ | :----------------------: |
 | 费马：①可导，②极值         | 积分中值：$f(\xi)(b-a)$             | 拉格朗日中值定理（注意：函数值为1或者0） | 柯西中值定理                   | 泰勒定理展开式（佩亚诺） |
 | 罗尔：$f(a)=f(b)$          | 辅助函数：$F(x)=\int_{a}^{x}f(t)dt$ |                                          |                                |         辅助函数         |
@@ -202,13 +202,13 @@
 - 分子分母同乘或分子加项再减项[*](https://md-imag.oss-accelerate.aliyuncs.com/image-20200220155649789.png)
 - *三角函数*
   - $sinx\rightarrow-sinx,cosx\rightarrow-cosx$原式不变，凑$d(tanx)$[*](https://md-imag.oss-accelerate.aliyuncs.com/20200308094257.png)
-  - 分子分母都是$sinx$`and`$cosx$的一次方，抓分母，凑$\int \frac{A(asinx+cosx)'+B(asinx+bcosx)}{asinx+bcosx}dx$  [*](https://md-imag.oss-accelerate.aliyuncs.com/20200308094556.png)
+  - 分子分母都是$sinx$ `and` $cosx$的一次方，抓分母，凑$\int \frac{A(asinx+cosx)'+B(asinx+bcosx)}{asinx+bcosx}dx$  [*](https://md-imag.oss-accelerate.aliyuncs.com/20200308094556.png)
   - 万能代换,：令$tan\frac{x}{2}=u, sinx=\frac{2u}{1+u^2},cosx=\frac{1-u^2}{1+u^2},dx=\frac{2}{1+u^2}$
 
 ##### 换元法 ( 需要保证单调可导 )
 
 - 三角代换
-- 恒等变形后三角代换，如：$\sqrt{-x^2+2x+3}=\sqrt{4-(x-1)^2}$
+- 恒等变形后三角代换，如：$\sqrt {-x^2+2x+3} = \sqrt {4-(x-1)^2}$
 - 根式代换（令成 t）[*](https://md-imag.oss-accelerate.aliyuncs.com/20200220165045.png)
 - 倒代换[*](https://md-imag.oss-accelerate.aliyuncs.com/20200220164914.png)
 
@@ -233,3 +233,12 @@
 - 周期函数
 - 区间再现（令x=上限+下限-t）
 - 华里士公式
+
+### 常微分方程
+
+##### 考法
+
+- 变量代换
+- 分离变量
+- 令ax+by+c=u
+- y'+py=q 或令整体代换为y后再使用
