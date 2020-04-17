@@ -92,7 +92,10 @@
 ---
 
 - $1+cosx=2cos^2\frac{x}{2}$
-- $$
+- $cosx+sinx=\sqrt{2}sin(x+\frac{\pi}{4})$
+- 辅助角公式
+  - $a\cdot sinx+b\cdot cosx=\sqrt{a^2+b^2}\cdot sin(x+arctan\frac{b}{a})$
+  - $a\cdot sinx+b\cdot cosx=\sqrt{a^2+b^2}\cdot cos(x-arctan\frac{a}{b})$
 
 #### 积分面积
 
