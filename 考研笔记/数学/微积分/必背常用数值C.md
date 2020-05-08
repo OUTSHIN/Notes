@@ -23,6 +23,8 @@
 ##### 当$x\rightarrow\infty$时
 
 1. $x^{\frac{1}{x}}=1$
+2. $(1+\frac{a}{x})^{bx+c}=e^{ab}$
+3. 
 
 ---
 
@@ -93,6 +95,7 @@
 
 - $1+cosx=2cos^2\frac{x}{2}$
 - $cosx+sinx=\sqrt{2}sin(x+\frac{\pi}{4})$
+- $sin(x+n\pi)=(-1)^nsinx$
 - 辅助角公式
   - $a\cdot sinx+b\cdot cosx=\sqrt{a^2+b^2}\cdot sin(x+arctan\frac{b}{a})$
   - $a\cdot sinx+b\cdot cosx=\sqrt{a^2+b^2}\cdot cos(x-arctan\frac{a}{b})$
@@ -112,6 +115,29 @@
   x=a(t-\sin t) \\
   y=a(1-\cos t)
   \end{array}(a>0)\right.
-$$
-  
+  $$
 - 
+
+#### 无穷级数
+
+---
+
+##### 收敛
+
+- $$
+  \text{交错调和级数: }\sum_{n=1}^{\infty}{(-1)^{n-1}\cdot\frac{1}{n}} 
+  $$
+
+- $$
+  \sum_{n=0}^{\infty}{\frac{1}{n!}}=e
+  $$
+
+- 
+
+##### 发散
+
+- $$
+  \text{调和级数: }\sum_{n=1}^{\infty}\frac{1}{n}
+$$
+
+
